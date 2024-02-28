@@ -10,6 +10,14 @@
 .product-grid .product{
     border: 1px solid var(--color-dark-grey);
     border-radius: var(--smooth-radius);
+    transition: var(--transition-fast) ease;
+    box-shadow: none;
+    position: relative;
+    top: 0;
+}
+.product-grid .product:hover{
+    box-shadow: 0 0 30px var(--color-grey);
+    top: calc(var(--smooth-radius) * -1);
 }
 .product-grid .product img {
     margin: 0 auto;
