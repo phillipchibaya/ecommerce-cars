@@ -4,7 +4,13 @@
         "car": "BMW M2",
         "year": "2021",
         "price": "2,000,000 ZAR",
-        "img": "../../public/images/bmwm2.png"
+        "img": "../../public/images/bmwm2.png",
+        "body": "2 door coupe",
+        "driveTerrain": "Rear Wheel Drive",
+        "transmission": "6 speed manual",
+        "power": "338kW (453bhp)",
+        "torque": "550Nm at 6,250rpm",
+        "engine": "Twin Turbo Inline Six"
     },
     {
         "id": 2,
@@ -26,5 +32,103 @@
         "year": "2023",
         "price": "3,000,000 ZAR",
         "img": "../../public/images/gwagon.png"
+    },
+    {
+        "id": 5,
+        "car": "Audio R8",
+        "year": "2023",
+        "price": "3,000,000 ZAR",
+        "img": "../../public/images/audir8.png"
+    },
+    {
+        "id": 6,
+        "car": "Benz GLC",
+        "year": "2023",
+        "price": "3,000,000 ZAR",
+        "img": "../../public/images/benzglc.png"
+    },
+    {
+        "id": 7,
+        "car": "BMW X6",
+        "year": "2023",
+        "price": "3,000,000 ZAR",
+        "img": "../../public/images/bmwx6.png"
+    },
+    {
+        "id": 8,
+        "car": "BMW X6",
+        "year": "2023",
+        "price": "3,000,000 ZAR",
+        "img": "../../public/images/bmwx6a.png"
+    },
+    {
+        "id": 9,
+        "car": "Discovery",
+        "year": "2023",
+        "price": "3,000,000 ZAR",
+        "img": "../../public/images/discovery.png"
+    },
+    {
+        "id": 10,
+        "car": "Toyota Hilux",
+        "year": "2023",
+        "price": "3,000,000 ZAR",
+        "img": "../../public/images/hilux.png"
+    },
+    {
+        "id": 11,
+        "car": "Honda",
+        "year": "2023",
+        "price": "3,000,000 ZAR",
+        "img": "../../public/images/honda.png"
+    },
+    {
+        "id": 12,
+        "car": "Jaguar",
+        "year": "2023",
+        "price": "3,000,000 ZAR",
+        "img": "../../public/images/jaguar.png"
+    },
+    {
+        "id": 13,
+        "car": "Landcruiser",
+        "year": "2023",
+        "price": "3,000,000 ZAR",
+        "img": "../../public/images/landcruiser2023.png"
+    },
+    {
+        "id": 14,
+        "car": "Landcruiser",
+        "year": "2021",
+        "price": "3,000,000 ZAR",
+        "img": "../../public/images/landcruiser.png"
+    },
+    {
+        "id": 15,
+        "car": "Porshe",
+        "year": "2023",
+        "price": "3,000,000 ZAR",
+        "img": "../../public/images/porshe.png"
+    },
+    {
+        "id": 16,
+        "car": "Range Rover",
+        "year": "2023",
+        "price": "3,000,000 ZAR",
+        "img": "../../public/images/rangerover.png"
+    },
+    {
+        "id": 17,
+        "car": "Ford Ranger Raptor",
+        "year": "2023",
+        "price": "3,000,000 ZAR",
+        "img": "../../public/images/raptor.png"
+    },
+    {
+        "id": 18,
+        "car": "Ford Everest",
+        "year": "2023",
+        "price": "3,000,000 ZAR",
+        "img": "../../public/images/fordeverest.png"
     }
 ]

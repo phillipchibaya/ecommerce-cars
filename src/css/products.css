@@ -1,3 +1,6 @@
+.products-count{
+    margin-bottom: 2rem;
+}
 .product-grid{
     width: 100%;
     max-width: 1300px;
@@ -14,6 +17,7 @@
     box-shadow: none;
     position: relative;
     top: 0;
+    overflow: hidden;
 }
 .product-grid .product:hover{
     box-shadow: 0 0 30px var(--color-grey);
@@ -26,6 +30,13 @@
     object-fit: contain;
     object-position: center;
     border-bottom: 1px solid var(--color-grey);
+    transform: scale(1) rotate(0deg);
+    opacity: 0.9;
+    transition: var(--transition-fast) ease;
+}
+.product-grid .product:hover img{
+    transform: scale(1.02) rotate(2deg);
+    opacity: 1;
 }
 .product-data,
 .product-buttons{
@@ -34,14 +45,79 @@
     gap: var(--grid-gap);
     grid-template-columns: repeat(2, 1fr);
 }
+.product-data{
+    margin: 0.55rem 0;
+}
+.product-buttons{
+    gap: unset;
+}
+.product-details {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: var(--page-max-width);
+    margin: 0 auto;
+    position: relative;
+}
+.product-details > div {
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    width: 100%;
+}
+.product-details .product-img img {
+    width: 100%;
+    margin: 0 auto;
+    position: sticky;
+    top: 60px;
+}
+.product-info .product-title-cost{
+    border-bottom: 1px solid var(--color-dark-grey);
+    padding-bottom: 1rem;
+}
+.product-info .product-title-cost h1{
+    font-size: 3rem;
+    width: fit-content;
+}
+.product-info .product-title-cost span{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--color-orange);
+}
+.product-stats{
+    border: 1px solid var(--color-dark-grey)
+}
+.product-stats .product-stats-row {
+    display: grid;
+    gap: var(--grid-fap);
+    grid-template-columns: repeat(2, 1fr);
+    border-bottom: 1px solid var(--color-grey);
+}
+.product-stats .product-stats-row span{
+    padding: 10px;
+}
+.product-stats .product-stats-row:nth-of-type(even){
+    background: var(--color-grey);
+}
+.back-to-products .btn {
+    color: var(--color-blue);
+    border: 2px solid var(--color-blue);
+    border-radius: var(--smooth-radius);
+}
 @media (min-width: 600px){
     .product-grid{
         grid-template-columns: repeat(2, 1fr); 
+    }
+    .back-to-products .btn{
+        width: auto;
     }
 }
 @media (min-width: 768px){
     .product-grid{
         grid-template-columns: repeat(3, 1fr);
+    }
+    .product-details > div{
+        max-width: 50%;
     }
 }
 @media (min-width: 1024px){

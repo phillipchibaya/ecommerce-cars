@@ -14,8 +14,8 @@ export default function ProductCard({ product }){
                 </div>
             </section>
             <section className="product-buttons">
-                <button>Add To Cart</button>
-                <NavLink className="btn">View More</NavLink>
+                <button className="btn btn-add" title={`Add ${product.car} to cart`}>Add To Cart</button>
+                <NavLink to={`/products/${product.id}`} state={{ product: product }} className="btn btn-view" title={`View more about ${product.car}`}>View More</NavLink>
             </section>
         </div>
     )
