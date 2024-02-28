@@ -1,6 +1,8 @@
 
 export default function About(){
     return(
-        <p>About page</p>
+        <div className="page-wrapper">
+            <p>About page</p>
+        </div>
     )
 }

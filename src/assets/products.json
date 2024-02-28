@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "car": "BMW M2",
+        "year": "2021",
+        "price": "2,000,000 ZAR",
+        "img": "../../public/images/bmwm2.png"
+    },
+    {
+        "id": 2,
+        "car": "Mercedes Brabus",
+        "year": "2021",
+        "price": "02,000,000 ZAR",
+        "img": "../../public/images/mercbrabus.jpg"
+    },
+    {
+        "id": 3,
+        "car": "VW Golf Type R",
+        "year": "2021",
+        "price": "1,000,000 ZAR",
+        "img": "../../public/images/vwgolftyper.png"
+    },
+    {
+        "id": 4,
+        "car": "G Wagon",
+        "year": "2023",
+        "price": "3,000,000 ZAR",
+        "img": "../../public/images/gwagon.png"
+    }
+]

@@ -25,6 +25,9 @@
     --transition-slowest: 1s;
 
     --icon-size: 60px;
+
+    --smooth-radius: 0.25rem;
+    --grid-gap: 20px;
 }
 
 ::-webkit-scrollbar{
@@ -71,4 +74,7 @@ html,
 body{
     width: 100%;
     font-family: "Open Sans", sans-serif;
+}
+.page-wrapper{
+    padding: 2rem;
 }
