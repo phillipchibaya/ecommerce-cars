@@ -17,118 +17,220 @@
         "car": "Mercedes Brabus",
         "year": "2021",
         "price": "02,000,000 ZAR",
-        "img": "../../public/images/mercbrabus.jpg"
+        "img": "../../public/images/mercbrabus.jpg",
+        "body": "2 door coupe",
+        "driveTerrain": "Rear Wheel Drive",
+        "transmission": "6 speed manual",
+        "power": "338kW (453bhp)",
+        "torque": "550Nm at 6,250rpm",
+        "engine": "Twin Turbo Inline Six"
     },
     {
         "id": 3,
         "car": "VW Golf Type R",
         "year": "2021",
         "price": "1,000,000 ZAR",
-        "img": "../../public/images/vwgolftyper.png"
+        "img": "../../public/images/vwgolftyper.png",
+        "body": "2 door coupe",
+        "driveTerrain": "Rear Wheel Drive",
+        "transmission": "6 speed manual",
+        "power": "338kW (453bhp)",
+        "torque": "550Nm at 6,250rpm",
+        "engine": "Twin Turbo Inline Six"
     },
     {
         "id": 4,
         "car": "G Wagon",
         "year": "2023",
         "price": "3,000,000 ZAR",
-        "img": "../../public/images/gwagon.png"
+        "img": "../../public/images/gwagon.png",
+        "body": "2 door coupe",
+        "driveTerrain": "Rear Wheel Drive",
+        "transmission": "6 speed manual",
+        "power": "338kW (453bhp)",
+        "torque": "550Nm at 6,250rpm",
+        "engine": "Twin Turbo Inline Six"
     },
     {
         "id": 5,
         "car": "Audio R8",
         "year": "2023",
         "price": "3,000,000 ZAR",
-        "img": "../../public/images/audir8.png"
+        "img": "../../public/images/audir8.png",
+        "body": "2 door coupe",
+        "driveTerrain": "Rear Wheel Drive",
+        "transmission": "6 speed manual",
+        "power": "338kW (453bhp)",
+        "torque": "550Nm at 6,250rpm",
+        "engine": "Twin Turbo Inline Six"
     },
     {
         "id": 6,
         "car": "Benz GLC",
         "year": "2023",
         "price": "3,000,000 ZAR",
-        "img": "../../public/images/benzglc.png"
+        "img": "../../public/images/benzglc.png",
+        "body": "2 door coupe",
+        "driveTerrain": "Rear Wheel Drive",
+        "transmission": "6 speed manual",
+        "power": "338kW (453bhp)",
+        "torque": "550Nm at 6,250rpm",
+        "engine": "Twin Turbo Inline Six"
     },
     {
         "id": 7,
         "car": "BMW X6",
         "year": "2023",
         "price": "3,000,000 ZAR",
-        "img": "../../public/images/bmwx6.png"
+        "img": "../../public/images/bmwx6.png",
+        "body": "2 door coupe",
+        "driveTerrain": "Rear Wheel Drive",
+        "transmission": "6 speed manual",
+        "power": "338kW (453bhp)",
+        "torque": "550Nm at 6,250rpm",
+        "engine": "Twin Turbo Inline Six"
     },
     {
         "id": 8,
         "car": "BMW X6",
         "year": "2023",
         "price": "3,000,000 ZAR",
-        "img": "../../public/images/bmwx6a.png"
+        "img": "../../public/images/bmwx6a.png",
+        "body": "2 door coupe",
+        "driveTerrain": "Rear Wheel Drive",
+        "transmission": "6 speed manual",
+        "power": "338kW (453bhp)",
+        "torque": "550Nm at 6,250rpm",
+        "engine": "Twin Turbo Inline Six"
     },
     {
         "id": 9,
         "car": "Discovery",
         "year": "2023",
         "price": "3,000,000 ZAR",
-        "img": "../../public/images/discovery.png"
+        "img": "../../public/images/discovery.png",
+        "body": "2 door coupe",
+        "driveTerrain": "Rear Wheel Drive",
+        "transmission": "6 speed manual",
+        "power": "338kW (453bhp)",
+        "torque": "550Nm at 6,250rpm",
+        "engine": "Twin Turbo Inline Six"
     },
     {
         "id": 10,
         "car": "Toyota Hilux",
         "year": "2023",
         "price": "3,000,000 ZAR",
-        "img": "../../public/images/hilux.png"
+        "img": "../../public/images/hilux.png",
+        "body": "2 door coupe",
+        "driveTerrain": "Rear Wheel Drive",
+        "transmission": "6 speed manual",
+        "power": "338kW (453bhp)",
+        "torque": "550Nm at 6,250rpm",
+        "engine": "Twin Turbo Inline Six"
     },
     {
         "id": 11,
         "car": "Honda",
         "year": "2023",
         "price": "3,000,000 ZAR",
-        "img": "../../public/images/honda.png"
+        "img": "../../public/images/honda.png",
+        "body": "2 door coupe",
+        "driveTerrain": "Rear Wheel Drive",
+        "transmission": "6 speed manual",
+        "power": "338kW (453bhp)",
+        "torque": "550Nm at 6,250rpm",
+        "engine": "Twin Turbo Inline Six"
     },
     {
         "id": 12,
         "car": "Jaguar",
         "year": "2023",
         "price": "3,000,000 ZAR",
-        "img": "../../public/images/jaguar.png"
+        "img": "../../public/images/jaguar.png",
+        "body": "2 door coupe",
+        "driveTerrain": "Rear Wheel Drive",
+        "transmission": "6 speed manual",
+        "power": "338kW (453bhp)",
+        "torque": "550Nm at 6,250rpm",
+        "engine": "Twin Turbo Inline Six"
     },
     {
         "id": 13,
         "car": "Landcruiser",
         "year": "2023",
         "price": "3,000,000 ZAR",
-        "img": "../../public/images/landcruiser2023.png"
+        "img": "../../public/images/landcruiser2023.png",
+        "body": "2 door coupe",
+        "driveTerrain": "Rear Wheel Drive",
+        "transmission": "6 speed manual",
+        "power": "338kW (453bhp)",
+        "torque": "550Nm at 6,250rpm",
+        "engine": "Twin Turbo Inline Six"
     },
     {
         "id": 14,
         "car": "Landcruiser",
         "year": "2021",
         "price": "3,000,000 ZAR",
-        "img": "../../public/images/landcruiser.png"
+        "img": "../../public/images/landcruiser.png",
+        "body": "2 door coupe",
+        "driveTerrain": "Rear Wheel Drive",
+        "transmission": "6 speed manual",
+        "power": "338kW (453bhp)",
+        "torque": "550Nm at 6,250rpm",
+        "engine": "Twin Turbo Inline Six"
     },
     {
         "id": 15,
         "car": "Porshe",
         "year": "2023",
         "price": "3,000,000 ZAR",
-        "img": "../../public/images/porshe.png"
+        "img": "../../public/images/porshe.png",
+        "body": "2 door coupe",
+        "driveTerrain": "Rear Wheel Drive",
+        "transmission": "6 speed manual",
+        "power": "338kW (453bhp)",
+        "torque": "550Nm at 6,250rpm",
+        "engine": "Twin Turbo Inline Six"
     },
     {
         "id": 16,
         "car": "Range Rover",
         "year": "2023",
         "price": "3,000,000 ZAR",
-        "img": "../../public/images/rangerover.png"
+        "img": "../../public/images/rangerover.png",
+        "body": "2 door coupe",
+        "driveTerrain": "Rear Wheel Drive",
+        "transmission": "6 speed manual",
+        "power": "338kW (453bhp)",
+        "torque": "550Nm at 6,250rpm",
+        "engine": "Twin Turbo Inline Six"
     },
     {
         "id": 17,
         "car": "Ford Ranger Raptor",
         "year": "2023",
         "price": "3,000,000 ZAR",
-        "img": "../../public/images/raptor.png"
+        "img": "../../public/images/raptor.png",
+        "body": "2 door coupe",
+        "driveTerrain": "Rear Wheel Drive",
+        "transmission": "6 speed manual",
+        "power": "338kW (453bhp)",
+        "torque": "550Nm at 6,250rpm",
+        "engine": "Twin Turbo Inline Six"
     },
     {
         "id": 18,
         "car": "Ford Everest",
         "year": "2023",
         "price": "3,000,000 ZAR",
-        "img": "../../public/images/fordeverest.png"
+        "img": "../../public/images/fordeverest.png",
+        "body": "2 door coupe",
+        "driveTerrain": "Rear Wheel Drive",
+        "transmission": "6 speed manual",
+        "power": "338kW (453bhp)",
+        "torque": "550Nm at 6,250rpm",
+        "engine": "Twin Turbo Inline Six"
     }
 ]

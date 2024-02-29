@@ -1,8 +1,14 @@
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { NavLink } from "react-router-dom";
 
 function Home(){
 
+    const sliderImagesData = [
+        { image: '../../public/slider/eurocars.jpg', title: 'European Sportcars' },
+        { image: '../../public/slider/sales.jpg', title: 'Discount Deals' },
+        { image: '../../public/slider/servicing.jpg', title: 'Cheap Service Intervals' },
+        { image: '../../public/slider/vintage.jpg', title: 'Vintage Collection' }
+    ]
     const sliderImages = useRef();
     const [counter, setCounter] = useState(0);
 
@@ -21,25 +27,6 @@ function Home(){
         }
     }
 
-    const setLeftPositionForSliderImages = () => {
-        const sliders = Array.from(sliderImages.current.childNodes);
-        sliders.forEach((slider, index) => {
-            slider.style.left = `${index * 100}%`;
-        });
-    }
-
-    const changeSlide = () => {
-        console.log(counter);
-        const sliders = Array.from(sliderImages.current.childNodes);
-        sliders.forEach(slider => {
-            slider.style.left = `-${counter * 100}%`;
-        });
-    }
-
-    useEffect(() => {
-        setLeftPositionForSliderImages();
-    });
-
     return(
         <div className="page-wrapper no-padding">
             <section className="hero-banner">
@@ -54,23 +41,17 @@ function Home(){
             </section>
             <section className="hero-slider">
                 <div className="slider-images" ref={sliderImages}>
-                    <div className="slider-image">
-                        <img src="../../public/slider/eurocars.jpg" />
+                {sliderImagesData.map((slider, index) => (
+                    <div key={index} className={(counter === index) ? 'slider-image active-slider' : 'slider-image'} >
+                        <img src={slider.image}  />
+                        <span>{slider.title}</span>
                     </div>
-                    <div className="slider-image">
-                        <img src="../../public/slider/sales.jpg" />
-                    </div>
-                    <div className="slider-image">
-                        <img src="../../public/slider/servicing.jpg" />
-                    </div>
-                    <div className="slider-image">
-                        <img src="../../public/slider/vintage.jpg" />
-                    </div>
+                ))
+                }
                 </div>
                 <div className="hero-slider-buttons">
-                    {counter}
-                    <button onClick={decrementCounter}>Prev</button>
-                    <button onClick={incrementCounter}>Next</button>
+                    <button className="btn" onClick={decrementCounter}>&#8592;</button>
+                    <button className="btn" onClick={incrementCounter}>&#8594;</button>
                 </div>
             </section>
             <section className="padding">
