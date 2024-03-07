@@ -16,7 +16,7 @@
         "id": 2,
         "car": "Mercedes Brabus",
         "year": "2021",
-        "price": "02,000,000 ZAR",
+        "price": "2,000,000 ZAR",
         "img": "../../public/images/mercbrabus.jpg",
         "body": "2 door coupe",
         "driveTerrain": "Rear Wheel Drive",

@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Products from './pages/Products';
 import ProductDetails from './pages/ProductDetails';
 import About from './pages/About';
+import CartPage from './pages/CartPage';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path='/products' element={ <Products /> } />
         <Route path='/products/:id' element={ <ProductDetails /> } />
         <Route path='/about' element={ <About /> } />
+        <Route path='/cart' element={ <CartPage /> } />
       </Routes>
       {/** add Footer compoponent here */}
       <Footer/>

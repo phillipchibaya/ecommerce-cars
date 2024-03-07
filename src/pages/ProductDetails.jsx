@@ -17,7 +17,7 @@ export default function ProductDetails(){
                 <div className="product-info">
                     <section className="product-title-cost">
                         <h1>{product.car}</h1>
-                        <span>{product.price}</span>
+                        <span>{product.price} ZAR</span>
                     </section>
                     <section className="product-stats">
                         <div className="product-stats-row">

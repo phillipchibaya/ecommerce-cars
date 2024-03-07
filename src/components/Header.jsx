@@ -1,11 +1,11 @@
 import { NavLink } from "react-router-dom";
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 
 export default function Header(){
 
     const accordionRef = useRef();
-    
     const [menuClicked, setMenuClicked] = useState(false);
+    const [cartCount, setCartCount] = useState(0);
 
     const updateOnClick = () => {
 
@@ -24,6 +24,16 @@ export default function Header(){
         setMenuClicked(false);
         accordionRef.current.style.maxHeight = null;
     }
+
+    const updateCartCount = (value) => {
+        setCartCount(value);
+    }
+
+    useEffect(() => {
+        // Fetch the cart items from localStorage and update the cart count
+        const storedCart = JSON.parse(localStorage.getItem('cart')) || [];
+        updateCartCount(storedCart.length);
+    }, []);
 
     return(
         <header>
@@ -49,6 +59,12 @@ export default function Header(){
                         </li>
                         <li>
                             <NavLink to="/about" title="About" className={ ( { isActive } )  => isActive ? 'active-link' : '' } onClick={updateMenuIconState}>About</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/cart" title="Cart" className={ ( { isActive } )  => isActive ? 'active-link' : '' } onClick={updateMenuIconState}>
+                                {/* <span className="cart-counter">{cartCount}</span> */}
+                                Cart
+                            </NavLink>
                         </li>
                     </ul>
                 </nav>

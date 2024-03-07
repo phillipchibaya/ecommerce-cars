@@ -91,6 +91,7 @@ header .header-right nav ul{
 }
 header .header-right nav ul li{
     padding: 10px;
+    position: relative;
 }
 header .header-right nav ul li a{
     color: var(--color-blue);
@@ -102,6 +103,20 @@ header .header-right nav ul li a.active-link{
 }
 header .header-right nav ul li a:hover{
     color: var(--color-red);
+}
+header .cart-counter {
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--color-white);
+    background: var(--color-red);
+    border-radius: 50%;
+    border: 1px solid var(--color-blue);
 }
 @media (min-width: 600px){
     header{
@@ -115,7 +130,7 @@ header .header-right nav ul li a:hover{
         overflow: unset;
     }
     header .header-right nav ul{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
     header .header-left button.menu-icon{
         display: none;
